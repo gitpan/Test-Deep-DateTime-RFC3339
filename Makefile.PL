@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "DateTime" => 0,
     "DateTime::Duration" => 0,
-    "DateTime::Format::Duration" => 0,
+    "DateTime::Format::Duration::DurationString" => 0,
     "DateTime::Format::Human::Duration" => 0,
     "DateTime::Format::RFC3339" => 0,
     "Safe::Isa" => 0,
@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,7 +41,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "DateTime" => 0,
   "DateTime::Duration" => 0,
-  "DateTime::Format::Duration" => 0,
+  "DateTime::Format::Duration::DurationString" => 0,
   "DateTime::Format::Human::Duration" => 0,
   "DateTime::Format::RFC3339" => 0,
   "Safe::Isa" => 0,
