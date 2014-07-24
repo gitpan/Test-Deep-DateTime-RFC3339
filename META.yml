@@ -34,4 +34,4 @@ resources:
   bugtracker: https://rt.cpan.org/Dist/Display.html?Name=Test-Deep-DateTime-RFC3339
   homepage: https://metacpan.org/pod/Test::Deep::DateTime::RFC3339
   repository: https://github.com/tsibley/Test-Deep-DateTime-RFC3339.git
-version: 0.02
+version: 0.03

@@ -13,7 +13,7 @@ SYNOPSIS
 
 DESCRIPTION
     Test::Deep::DateTime::RFC3339 provides a single function,
-    "datetime_rfc3339" , which is used with Test::Deep to check that the
+    "datetime_rfc3339", which is used with Test::Deep to check that the
     string value gotten is an RFC3339-compliant timestamp. It can also check
     if the timestamp is equal to, or within optional tolerances of, an
     expected timestamp.
