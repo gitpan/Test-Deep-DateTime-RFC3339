@@ -1,5 +1,9 @@
 Revision history for Test-Deep-DateTime-RFC3339
 
+0.04  2014-07-29 12:53:28 PDT
+        - Gracefully handle formatting $got when it's not a parseable string
+        - Better tests of failure diagnostics
+
 0.03  2014-07-24 15:17:12 PDT
         - Minor POD fix for link
 

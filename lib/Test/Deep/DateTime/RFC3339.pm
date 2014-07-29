@@ -3,7 +3,7 @@ package Test::Deep::DateTime::RFC3339;
 use strict;
 use warnings;
 use 5.008_005;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Test::Deep::Cmp;    # isa
 
@@ -99,7 +99,7 @@ sub renderExp {
 
 sub renderGot {
     my ($self, $got) = @_;
-    return $self->_format($got);
+    return $got->$_isa("DateTime") ? $self->_format($got) : $got;
 }
 
 sub _format {
